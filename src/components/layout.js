@@ -34,11 +34,19 @@ const Header = () => {
 
 const Footer = () => {
   return (
-    <footer className="max-w-[1300px] mx-auto font-signika-negative mt-5 flex justify-center rounded-t-lg py-3 bg-black text-white gap-6">
-      <Link to="/">Acheter</Link>
-      <Link to="/rules">Règles</Link>
-      <Link to="/rules">Équipe</Link>
-      <Link to="/">Mentions légales</Link>
+    <footer className="items-center flex justify-between max-w-[1300px] mx-auto font-signika-negative m-5 rounded-lg md:px-[40px] md:py-[80px] bg-primary-blue text-white gap-6">
+      <div class="flex flex-col">
+      <Link to="/product">Acheter</Link>
+      <Link to="/rules">Règles du jeu</Link>
+      <Link to="/team">Équipe</Link>
+      </div>
+
+      <div className="w-2/6">
+        <Link to="/">
+          <img className="text-white w-full" src={Logo} alt="Logo" />
+        </Link>
+      </div>
+      
     </footer>
   );
 };
