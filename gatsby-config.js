@@ -12,7 +12,6 @@ module.exports = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    'gatsby-omni-font-loader',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         'primary-blue': '#0953C2',
       },
+      fontFamily: {
+        'signika-negative': ['Signika Negative', 'sans-serif'],
+      },
     },
   },
   plugins: [],

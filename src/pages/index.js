@@ -8,7 +8,7 @@ import HeroImage from '../images/hero-image.png';
 const IndexPage = () => {
   return (
     <Layout>
-      <main className="">
+      <main>
         <img src={HeroImage} className="rounded-xl" />
         <h1>Welcome to my Gatsby site!</h1>
         <p>I'm making this by following the Gatsby Tutorial.</p>
