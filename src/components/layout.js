@@ -33,7 +33,7 @@ const Footer = () => {
   return (
     <footer className="max-w-[1300px] mx-auto font-signika-negative mt-5 flex justify-center rounded-t-lg py-3 bg-black text-white gap-6">
       <Link to="/">Acheter</Link>
-      <Link to="/">Règles du jeu</Link>
+      <Link to="/rules">Règles</Link>
       <Link to="/">Mentions légales</Link>
     </footer>
   );

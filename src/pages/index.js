@@ -19,10 +19,10 @@ const IndexPage = () => {
             en étant le meilleur inspecteur de la contrée !
           </h3>
           <div className="flex gap-3">
-            <button className="inline-block py-1 px-5 rounded-lg bg-secondary-yellow">
+            <button className="inline-block py-1 px-5 rounded-lg uppercase font-semibold bg-secondary-yellow">
               <Link to="/product">Acheter</Link>
             </button>
-            <button className="inline-block py-1 px-5 rounded-lg bg-primary-blue text-white">
+            <button className="inline-block py-1 px-5 rounded-lg uppercase font-semibold bg-primary-blue text-white">
               <Link to="/rules">Règles</Link>
             </button>
           </div>
