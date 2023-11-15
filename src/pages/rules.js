@@ -90,7 +90,7 @@ const RuleCard = () => {
   return (
     <div>
       {rulesContent.map((ruleContent) => (
-        <div className="max-w-[700px] bg-pastel-blue my-5 p-14">
+        <div className="max-w-[700px] rounded-lg bg-pastel-blue my-5 p-14">
           <h3>{ruleContent.title}</h3>
           <p>{ruleContent.description}</p>
         </div>
