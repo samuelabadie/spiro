@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import { Link } from 'gatsby';
 
+import Favicon from '../images/favicon.svg';
 import Layout from '../components/layout';
 
 let rulesContent = [
@@ -116,6 +117,11 @@ const RulesPage = () => {
   );
 };
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => (
+  <>
+    <title>Spiro | Règles</title>
+    <link rel="icon" type="image/png" href={Favicon} />
+  </>
+);
 
 export default RulesPage;

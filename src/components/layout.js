@@ -36,9 +36,9 @@ const Footer = () => {
   return (
     <footer className="items-center flex justify-between max-w-[1300px] mx-auto font-signika-negative m-5 rounded-lg md:px-[40px] md:py-[80px] px-[20px] py-[40px] bg-primary-blue text-white gap-6">
       <div class="flex flex-col">
-      <Link to="/product">Acheter</Link>
-      <Link to="/rules">Règles du jeu</Link>
-      <Link to="/team">Équipe</Link>
+        <Link to="/product">Acheter</Link>
+        <Link to="/rules">Règles du jeu</Link>
+        <Link to="/team">Équipe</Link>
       </div>
 
       <div className="w-2/6">
@@ -46,7 +46,6 @@ const Footer = () => {
           <img className="text-white w-full" src={Logo} alt="Logo" />
         </Link>
       </div>
-      
     </footer>
   );
 };
