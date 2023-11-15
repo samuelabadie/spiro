@@ -6,7 +6,7 @@ import Logo from '../images/logo.svg';
 
 const Header = () => {
   return (
-    <nav className="max-w-[1300px] mx-auto flex justify-between items-center sm:justify-start mb-5 px-[40px] py-[22px] rounded-xl bg-primary-blue text-white font-signika-negative text-xs sm:text-base">
+    <nav className="sticky top-5 max-w-[1300px] mx-auto flex justify-between items-center mb-5 px-[40px] py-[22px] rounded-xl bg-primary-blue text-white font-signika-negative text-xs sm:text-base">
       <div className="mr-8">
         <Link to="/">
           <img className="text-white" src={Logo} alt="Logo" />
@@ -34,7 +34,7 @@ const Header = () => {
 
 const Footer = () => {
   return (
-    <footer className="items-center flex justify-between max-w-[1300px] mx-auto font-signika-negative m-5 rounded-lg md:px-[40px] md:py-[80px] bg-primary-blue text-white gap-6">
+    <footer className="items-center flex justify-between max-w-[1300px] mx-auto font-signika-negative m-5 rounded-lg md:px-[40px] md:py-[80px] px-[20px] py-[40px] bg-primary-blue text-white gap-6">
       <div class="flex flex-col">
       <Link to="/product">Acheter</Link>
       <Link to="/rules">Règles du jeu</Link>
