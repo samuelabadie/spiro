@@ -15,7 +15,7 @@ const IndexPage = () => {
         <div className="flex flex-col md:justify-center md:px-12 md:gap-5 w-auto max-w-[600px]">
           <h1>SPIRO, le jeu de la New Gen</h1>
           <h3>
-            Apprenez à déjouer les plus grands crimes de la ville de Soriaville
+            Apprenez à déjouer les plus grands crimes de la ville de Soria Ville
             en étant le meilleur inspecteur de la contrée !
           </h3>
           <div className="flex gap-3">

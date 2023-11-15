@@ -23,6 +23,9 @@ const Header = () => {
           <li>
             <Link to="/rules">Règles</Link>
           </li>
+          <li>
+            <Link to="/team">Équipe</Link>
+          </li>
         </ul>
       </div>
     </nav>
@@ -34,6 +37,7 @@ const Footer = () => {
     <footer className="max-w-[1300px] mx-auto font-signika-negative mt-5 flex justify-center rounded-t-lg py-3 bg-black text-white gap-6">
       <Link to="/">Acheter</Link>
       <Link to="/rules">Règles</Link>
+      <Link to="/rules">Équipe</Link>
       <Link to="/">Mentions légales</Link>
     </footer>
   );
@@ -41,11 +45,13 @@ const Footer = () => {
 
 const Layout = ({ children }) => {
   return (
-    <div className="max-w-[1300px] mx-auto px-5 pt-5 bg-[#F8F8F8]">
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </div>
+    <html lang="fr">
+      <div className="max-w-[1300px] mx-auto px-5 pt-5 bg-light-white">
+        <Header />
+        <body>{children}</body>
+        <Footer />
+      </div>
+    </html>
   );
 };
 
