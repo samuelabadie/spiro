@@ -3,13 +3,12 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 
 // Step 2: Define your component
-const IndexPage = () => {
+const RulesPage = () => {
   return (
     <main>
-      <h1>Welcome to my Gatsby site!</h1>
+      <h1>Rules</h1>
       <p>I'm making this by following the Gatsby Tutorial.</p>
       <Link to="/product">Acheter</Link>
-      <Link to="/rules">Règles</Link>
     </main>
   )
 }
@@ -18,4 +17,4 @@ const IndexPage = () => {
 export const Head = () => <title>Home Page</title>
 
 // Step 3: Export your component
-export default IndexPage
+export default RulesPage
