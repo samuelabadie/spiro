@@ -49,46 +49,40 @@ let rulesContent = [
   {
     title: `4 - L'ENQUÊTE`,
     description: `A) DÉPLACEMENTS
-
     Avancer : Celui qui joue lance les dés et avance sur les cases rondes, vers le lieu de son choix, d’autant de cases que le dés marquent de points. Il peut rester sur place aussi longtemps qu’il le désire.
-    
     Cases occupées : Il ne peut pas s’arrêter sur une case déjà occupée ni sauter par-dessus un pion adverse.
-    
     Entrer dans un lieu : Il n’est pas obligé de faire un nombre exact de points pour entrer dans un lieu.
-    
     Exemple : S’il se trouve à 5 cases d’un lieu et qu’il fait 8, il peut y entrer mais n’aura le droit d’en repartir qu’à son prochain tour, avec un autre lancer de dés.
-    
     Déplacement et Hypothèse : Le déplacement compte pour un coup mais le joueur peut, une fois arrivé dans une pièce, sans attendre son prochain tour, enquêter à partir du lieu où il est arrivé en formulant une “HYPOTHÈSE” .,
-  
     B) HYPOTHÈSES
-L’HYPOTHÈSE se fait de la façon suivante :
+    L’HYPOTHÈSE se fait de la façon suivante :
 
-Le joueur fait venir dans le lieu où il se trouve, un suspect et un objet de son choix. Supposons que : le cactus pénètre dans le parc et qu’il soupçonne la coccinelle d’avoir pollué le lieu le chewing-gum.
-Il « appelle » son suspect dans le parc, y place le chewing-gum et dit :
-« Je suppose que le (crime écologique) a été commis par la coccinelle, dans le parc ,avec le chewing-gum! ».
-Il s’adresse ensuite aux autres joueurs.
-Il commence par le premier à gauche. Ce joueur, s’il possède l’une des 3 cartes de l’HYPOTHÈSE, doit la lui montrer sans que les autres ne la voient et c’est au tour du joueur suivant.
-S’il n’en a aucune, l’enquêteur interroge les joueurs suivants jusqu’à ce qu’il ait obtenu satisfaction. (Précisons que le joueur interrogé, même s’il possède plusieurs cartes entrant dans l’HYPOTHÈSE, il ne doit en montrer secrètement qu’UNE SEULE de son choix)
+    Le joueur fait venir dans le lieu où il se trouve, un suspect et un objet de son choix. Supposons que : le cactus pénètre dans le parc et qu’il soupçonne la coccinelle d’avoir pollué le lieu le chewing-gum.
+    Il « appelle » son suspect dans le parc, y place le chewing-gum et dit :
+    « Je suppose que le (crime écologique) a été commis par la coccinelle, dans le parc ,avec le chewing-gum! ».
+    Il s’adresse ensuite aux autres joueurs.
+    Il commence par le premier à gauche. Ce joueur, s’il possède l’une des 3 cartes de l’HYPOTHÈSE, doit la lui montrer sans que les autres ne la voient et c’est au tour du joueur suivant.
+    S’il n’en a aucune, l’enquêteur interroge les joueurs suivants jusqu’à ce qu’il ait obtenu satisfaction. (Précisons que le joueur interrogé, même s’il possède plusieurs cartes entrant dans l’HYPOTHÈSE, il ne doit en montrer secrètement qu’UNE SEULE de son choix)
 
-C) NOTES
+    C) NOTES
 
-Bien entendu, le détective coche sur son carnet de notes, les noms des personnages, objets et lieux qu’il trouve durant la partie, ceux-la ne seront donc pas accusé à la fin.
-Ainsi, par éliminations successives le joueur pourra clore son enquête.
-Il peut, tout de suite après avoir fait une HYPOTHÈSE, formuler une ACCUSATION précise, sinon son tour est terminé (qu’une seule accusation possible par joueur).
+    Bien entendu, le détective coche sur son carnet de notes, les noms des personnages, objets et lieux qu’il trouve durant la partie, ceux-la ne seront donc pas accusé à la fin.
+    Ainsi, par éliminations successives le joueur pourra clore son enquête.
+    Il peut, tout de suite après avoir fait une HYPOTHÈSE, formuler une ACCUSATION précise, sinon son tour est terminé (qu’une seule accusation possible par joueur).
 
-D) ASTUCES DU DÉTECTIVE
+    D) ASTUCES DU DÉTECTIVE
 
-Remise en cause : Pour obtenir des indications précise sur le contenu de l’étui et pour égarer ses concurrents, il a le droit de mettre en cause un personnage, un objet et un lieu dont il possède la ou les cartes.
-Exemple 1 : Supposons qu’il se trouve dans le champ et qu’il possède, entre autres cartes, celles représentant le trèfle et le champ.
-Il « appelle » dans le champ le trèfle, avec le mégot par exemple. Si aucun témoin ne lui montre l’objet demandée, il est évident que le mégot se trouve dans l’Etui.
+    Remise en cause : Pour obtenir des indications précise sur le contenu de l’étui et pour égarer ses concurrents, il a le droit de mettre en cause un personnage, un objet et un lieu dont il possède la ou les cartes.
+    Exemple 1 : Supposons qu’il se trouve dans le champ et qu’il possède, entre autres cartes, celles représentant le trèfle et le champ.
+    Il « appelle » dans le champ le trèfle, avec le mégot par exemple. Si aucun témoin ne lui montre l’objet demandée, il est évident que le mégot se trouve dans l’Etui.
 
-F) L’ACCUSATION
+    F) L’ACCUSATION
 
-Le joueur qui pense connaître les trois cartes de l’énigme, en inscrit les noms au dos de sa feuille grille.
-Il compare ensuite secrètement son accusation avec le contenu de l’Etui :
-Si son accusation est juste, il le prouve en exposant les 3 cartes et son rapport. Il gagne la partie.
-Si son accusation est fausse, il remet les cartes dans l’Etui . Il reste en jeu pour démentir les « HYPOTHÈSES » éventuelles mais ne peut plus ni se déplacer, ni interroger, ni accuser.
-Chaque enquêteur ne peut faire qu’une seule ACCUSATION. Qu’il la fasse donc à bon escient !`,
+    Le joueur qui pense connaître les trois cartes de l’énigme, en inscrit les noms au dos de sa feuille grille.
+    Il compare ensuite secrètement son accusation avec le contenu de l’Etui :
+    Si son accusation est juste, il le prouve en exposant les 3 cartes et son rapport. Il gagne la partie.
+    Si son accusation est fausse, il remet les cartes dans l’Etui . Il reste en jeu pour démentir les « HYPOTHÈSES » éventuelles mais ne peut plus ni se déplacer, ni interroger, ni accuser.
+    Chaque enquêteur ne peut faire qu’une seule ACCUSATION. Qu’il la fasse donc à bon escient !`,
   },
 ];
 
