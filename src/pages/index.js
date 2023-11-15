@@ -9,7 +9,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <main className="max-w-[1300px] mx-auto flex-col justify-between md:flex md:flex-row">
-        <div className="lg:min-w-[500px] mr-5">
+        <div className="w-full lg:min-w-[500px] mr-5">
           <img src={HeroImage} className="w-full rounded-xl" />
         </div>
         <div className="flex flex-col md:justify-center md:px-12 md:gap-5 w-auto max-w-[600px]">
