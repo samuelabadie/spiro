@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-
+import Favicon from '../images/favicon.svg';
 import HeroImage from '../images/hero-image.png';
 
 const IndexPage = () => {
@@ -32,6 +32,11 @@ const IndexPage = () => {
   );
 };
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => (
+  <>
+    <title>Spiro | Accueil</title>
+    <link rel="icon" type="image/png" href={Favicon} />
+  </>
+);
 
 export default IndexPage;
