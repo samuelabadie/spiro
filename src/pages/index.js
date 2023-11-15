@@ -8,12 +8,25 @@ import HeroImage from '../images/hero-image.png';
 const IndexPage = () => {
   return (
     <Layout>
-      <main>
-        <img src={HeroImage} className="rounded-xl" />
-        <h1>Welcome to my Gatsby site!</h1>
-        <p>I'm making this by following the Gatsby Tutorial.</p>
-        <Link to="/product">Acheter</Link>
-        <Link to="/rules">Règles</Link>
+      <main className="max-w-[1300px] mx-auto flex-col justify-between md:flex md:flex-row">
+        <div className="lg:min-w-[500px] mr-5">
+          <img src={HeroImage} className="w-full rounded-xl" />
+        </div>
+        <div className="flex flex-col md:justify-center md:px-12 md:gap-5 w-auto max-w-[600px]">
+          <h1>SPIRO, le jeu de la New Gen</h1>
+          <h3>
+            Apprenez à déjouer les plus grands crimes de la ville de Soriaville
+            en étant le meilleur inspecteur de la contrée !
+          </h3>
+          <div className="flex gap-3">
+            <button className="inline-block py-1 px-5 rounded-lg bg-secondary-yellow">
+              <Link to="/product">Acheter</Link>
+            </button>
+            <button className="inline-block py-1 px-5 rounded-lg bg-primary-blue text-white">
+              <Link to="/rules">Règles</Link>
+            </button>
+          </div>
+        </div>
       </main>
     </Layout>
   );

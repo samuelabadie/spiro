@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         'primary-blue': '#0953C2',
+        'secondary-yellow': '#FCD034',
       },
       fontFamily: {
         'signika-negative': ['Signika Negative', 'sans-serif'],

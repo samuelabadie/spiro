@@ -2,4 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  h1 {
+    @apply text-4xl font-bold font-signika-negative uppercase text-[61px] leading-tight;
+  }
+  h3 {
+    @apply text-3xl font-semibold font-signika-negative leading-tight;
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500;600;700&family=Tomorrow:ital,wght@0,800;1,700;1,800&display=swap');
