@@ -13,7 +13,7 @@ const ProductPage = () => {
         <div class="md:min-w-1/2 w-mr-5">
           <img src={HeroImage} className="w-full rounded-xl" />
         </div>
-        <div class="flex flex-col gap-y-6">
+        <div class="flex flex-col gap-y-6 w-[600px]">
           <h1>spiro</h1>
           <text class="uppercase">mmi gaming Référence- Ref 06024479</text>
           <div>
