@@ -5,6 +5,8 @@ import Layout from '../components/layout';
 import Favicon from '../images/favicon.svg';
 import Arrowicon from '../images/icons/arrow.svg';
 import HeroImage from '../images/hero-image.png';
+import CactusIcon from '../images/icons/cactus.svg';
+import LadybugIcon from '../images/icons/ladybug.svg';
 
 const IndexPage = () => {
   return (
@@ -35,14 +37,22 @@ const IndexPage = () => {
         </div>
       </Link>
       <section id="story" class="max-w-[1300px] py-10">
-        <h1 class="mb-10">l'histoire</h1>
+        <h1 class="mb-10 relative">
+          l'histoire
+          <div class="left-[300px] bottom-[0px] hidden sm:block absolute">
+              <img src={LadybugIcon}/>
+          </div>
+        </h1>
         <div class="w-full flex justify-start">
-          <div class="bg-light-green md:p-[40px] p-[20px] rounded-lg md:max-w-[800px]">
+          <div class="bg-light-green md:p-[40px] p-[20px] rounded-lg md:max-w-[800px] relative">
             La Terre a vraiment besoin d'un coup de main, "Spiro" te propose de devenir un détective dans Soria ville ! En tant que super détective, c'est à toi de retrouver les responsables d’actes allant à l’encontre de la protection de la planète.
           </div>
         </div>
-        <div class="w-full flex justify-end md:mt-10 mt-4">
-        <div class="bg-light-green md:p-[40px] p-[20px] rounded-lg md:max-w-[800px]">
+        <div class="relative w-full flex justify-end md:mt-10 mt-4">
+          <div class="right-[10px] top-[-230px] hidden md:block absolute">
+              <img src={CactusIcon}/>
+          </div>
+          <div class="bg-light-green md:p-[40px] p-[20px] rounded-lg md:max-w-[800px]">
           Tu pourras te balader dans le parc, le port, le quartier pavillonnaire, la route, la zone industrielle ainsi que le champ pour résoudre les mystères qui planent sur la ville. Chaque fois qu'il se passe quelque chose d’inhabituel, c’est à toi de découvrir quel crime a été fait, dans quel lieu, et même quel objet est impliqué dans cette histoire.
 Le défi ? Attraper les coupables ! Alors, es-tu prêt à devenir un détective de Soria ville ? Allez, l'aventure t'attend !
           </div>
