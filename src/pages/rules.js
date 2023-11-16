@@ -1,15 +1,14 @@
 import * as React from 'react';
 
-import { Link } from 'gatsby';
-
-import Favicon from '../images/favicon.svg';
 import Layout from '../components/layout';
+import Favicon from '../images/favicon.svg';
+import GameIcon from '../images/icons/game.svg';
 
 let rulesContent = [
   {
     title: '',
-    description: `But du jeu : Les jeunes détectives doivent résoudre des énigmes écologiques amusantes et démasquer qui perturbe l'équilibre naturel de Soria ville !
-      Gagnant : Celui qui trouve en premier 
+    description: `But du jeu : Les jeunes détectives doivent résoudre des énigmes écologiques amusantes et démasquer qui perturbe l'équilibre naturel de Soria Ville !
+      Le gagnant est celui qui trouve en premier : 
       - le personnage impliqué 
       - l’objet utilisé 
       - et situe le lieu du crime écologique
@@ -73,16 +72,16 @@ let rulesContent = [
 
     C) NOTES
 
-    Bien entendu, le détective coche sur son carnet de notes, les noms des personnages, objets et lieux qu’il trouve durant la partie, ceux-la ne seront donc pas accusé à la fin.
+    Bien entendu, le détective coche sur son carnet de notes, les noms des personnages, objets et lieux qu’il trouve durant la partie, ceux-là ne seront donc pas accusés à la fin.
     Ainsi, par éliminations successives le joueur pourra clore son enquête.
     Il peut, tout de suite après avoir fait une HYPOTHÈSE, formuler une ACCUSATION précise, sinon son tour est terminé (qu’une seule accusation possible par joueur).
 
 
     D) ASTUCES DU DÉTECTIVE
 
-    Remise en cause : Pour obtenir des indications précise sur le contenu de l’étui et pour égarer ses concurrents, il a le droit de mettre en cause un personnage, un objet et un lieu dont il possède la ou les cartes.
+    Remise en cause : Pour obtenir des indications précises sur le contenu de l’étui et pour égarer ses concurrents, il a le droit de mettre en cause un personnage, un objet et un lieu dont il possède la ou les cartes.
     Exemple 1 : Supposons qu’il se trouve dans le champ et qu’il possède, entre autres cartes, celles représentant le trèfle et le champ.
-    Il « appelle » dans le champ le trèfle, avec le mégot par exemple. Si aucun témoin ne lui montre l’objet demandée, il est évident que le mégot se trouve dans l’Etui.
+    Il « appelle » dans le champ le trèfle, avec le mégot par exemple. Si aucun témoin ne lui montre l’objet demandé, il est évident que le mégot se trouve dans l’Etui.
 
 
     F) L’ACCUSATION
@@ -99,14 +98,25 @@ const RuleCard = () => {
   return (
     <div>
       {rulesContent.map((ruleContent) => (
-        <div className="max-w-[700px] rounded-lg bg-pastel-blue my-5 p-5 md:p-14">
-          <h3>{ruleContent.title}</h3>
-          {ruleContent.title === '' ? (
-            <p>{ruleContent.description}</p>
-          ) : (
-            <p className="mt-2 md:mt-4">{ruleContent.description}</p>
-          )}
-        </div>
+        <>
+          <div className="absolute right-2">
+            {ruleContent.title === '1 - MATÉRIEL' ? (
+              <img
+                src={GameIcon}
+                alt="Icône de la section Matériel"
+                className="w-12"
+              />
+            ) : null}
+          </div>
+          <div className="max-w-[700px] rounded-lg bg-pastel-blue my-5 p-5 md:p-14">
+            <h3>{ruleContent.title}</h3>
+            {ruleContent.title === '' ? (
+              <p>{ruleContent.description}</p>
+            ) : (
+              <p className="mt-2 md:mt-4">{ruleContent.description}</p>
+            )}
+          </div>
+        </>
       ))}
     </div>
   );
