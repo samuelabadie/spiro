@@ -4,24 +4,24 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Favicon from '../images/favicon.svg';
 import Arrowicon from '../images/icons/arrow.svg';
-import HeroImage from '../images/hero-image.png';
+import HeroImage from '../images/hero.svg';
 import CactusIcon from '../images/icons/cactus.svg';
 import LadybugIcon from '../images/icons/ladybug.svg';
 
 const IndexPage = () => {
   return (
     <Layout>
-      <main className="max-w-[1300px] mx-auto flex-col justify-between md:flex md:flex-row">
-        <div className="w-full lg:min-w-[500px] mr-5">
+      <main className="mt-20 max-w-[1300px] mx-auto flex-col items-center justify-between md:flex md:flex-row">
+        <div className="w-full lg:min-w-[500px] mr-5 px-8 mb-10">
           <img src={HeroImage} className="w-full rounded-xl" />
         </div>
         <div className="flex flex-col md:justify-center md:px-12 md:gap-5 w-auto max-w-[600px]">
           <h1>SPIRO, le jeu de la New Gen</h1>
-          <h3>
+          <h3 class="mt-4">
             Apprenez à déjouer les plus grands crimes de la ville de Soria Ville
             en étant le meilleur inspecteur de la contrée !
           </h3>
-          <div className="flex gap-3">
+          <div className="flex gap-3 mt-10 sm:mt-4">
             <button className="inline-block py-1 px-5 rounded-lg uppercase font-semibold bg-secondary-yellow">
               <Link to="/product">Acheter</Link>
             </button>

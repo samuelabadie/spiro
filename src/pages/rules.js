@@ -61,7 +61,7 @@ Déplacement et hypothèse
   Une fois arrivé dans un lieu, le joueur peut enquêter sur le lieu dans lequel il se trouve en formulant une hypothèse.
 
 Cases spéciales
-  Case orange +1: avancer d’une case
+  Case rose +1: avancer d’une case
   Case verte chewing-gum: vous êtes bloqué durant 1 tour
 
 La formulation de l’hypothèse
