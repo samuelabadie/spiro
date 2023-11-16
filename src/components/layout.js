@@ -15,6 +15,9 @@ const Header = () => {
       <div>
         <ul className="flex gap-5">
           <li>
+          <Link className='underline' to="/figma">Figma</Link>
+          </li>
+          <li>
             <Link to="/">Accueil</Link>
           </li>
           <li>
@@ -36,6 +39,7 @@ const Footer = () => {
   return (
     <footer className="items-center flex justify-between max-w-[1300px] mx-auto font-signika-negative m-5 rounded-lg md:px-[40px] md:py-[80px] px-[20px] py-[40px] bg-primary-blue text-white gap-6">
       <div class="flex flex-col">
+        <Link className='underline' to="/figma">Figma</Link>
         <Link to="/product">Acheter</Link>
         <Link to="/rules">Règles du jeu</Link>
         <Link to="/team">Équipe</Link>

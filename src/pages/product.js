@@ -4,16 +4,16 @@ import { Link } from 'gatsby';
 
 import Favicon from '../images/favicon.svg';
 import Layout from '../components/layout';
-import HeroImage from '../images/hero-image.png';
+import ProductImage from '../images/product-image.jpg';
 
 const ProductPage = () => {
   return (
     <Layout>
       <section class="md:flex-row flex flex-col-reverse justify-between gap-x-10 gap-y-10 items-center ">
-        <div class="md:min-w-1/2 w-mr-5">
-          <img src={HeroImage} className="w-full rounded-xl" />
+        <div class="md:w-2/3 w-mr-5">
+          <img src={ProductImage} className="w-full rounded-xl" />
         </div>
-        <div class="flex flex-col gap-y-6 w-[600px]">
+        <div class="flex flex-col gap-y-6 md:w-[600px] w-auto">
           <h1>spiro</h1>
           <text class="uppercase">mmi gaming Référence- Ref 06024479</text>
           <div>
