@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import { Link } from 'gatsby';
 
+import Favicon from '../images/favicon.svg';
 import Layout from '../components/layout';
 
 let rulesContent = [
@@ -90,9 +91,13 @@ const RuleCard = () => {
   return (
     <div>
       {rulesContent.map((ruleContent) => (
-        <div className="max-w-[700px] rounded-lg bg-pastel-blue my-5 p-14">
+        <div className="max-w-[700px] rounded-lg bg-pastel-blue my-5 p-5 md:p-14">
           <h3>{ruleContent.title}</h3>
-          <p>{ruleContent.description}</p>
+          {ruleContent.title === '' ? (
+            <p>{ruleContent.description}</p>
+          ) : (
+            <p className="mt-2 md:mt-4">{ruleContent.description}</p>
+          )}
         </div>
       ))}
     </div>
@@ -112,6 +117,11 @@ const RulesPage = () => {
   );
 };
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => (
+  <>
+    <title>Spiro | Règles</title>
+    <link rel="icon" type="image/png" href={Favicon} />
+  </>
+);
 
 export default RulesPage;
