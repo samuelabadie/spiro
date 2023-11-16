@@ -3,6 +3,9 @@ import * as React from 'react';
 import Layout from '../components/layout';
 import Favicon from '../images/favicon.svg';
 import GameIcon from '../images/icons/game.svg';
+import PreparationIcon from '../images/icons/preparation.svg';
+import CardsIcon from '../images/icons/cards.svg';
+import AloeIcon from '../images/characters/aloevera.svg';
 
 let rulesContent = [
   {
@@ -99,12 +102,30 @@ const RuleCard = () => {
     <div>
       {rulesContent.map((ruleContent) => (
         <>
-          <div className="absolute right-2">
+          <div className="relative">
             {ruleContent.title === '1 - MATÉRIEL' ? (
               <img
                 src={GameIcon}
                 alt="Icône de la section Matériel"
-                className="w-12"
+                className="w-12 absolute top-3 right-3"
+              />
+            ) : ruleContent.title === '2 - PRÉPARATION' ? (
+              <img
+                src={PreparationIcon}
+                alt="Icône de la section Préparation"
+                className="w-12 absolute top-3 right-3"
+              />
+            ) : ruleContent.title === '3 - DISTRIBUTION' ? (
+              <img
+                src={CardsIcon}
+                alt="Icône de la section Distribution"
+                className="w-12 absolute top-3 right-3"
+              />
+            ) : ruleContent.title === "4 - L'ENQUÊTE" ? (
+              <img
+                src={AloeIcon}
+                alt="Icône de la section Enquête"
+                className="w-12 absolute top-3 right-3"
               />
             ) : null}
           </div>

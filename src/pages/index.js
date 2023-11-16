@@ -31,8 +31,9 @@ const IndexPage = () => {
           </div>
         </div>
       </main>
-      <Link to="#story" className=''>
-        <div class="my-20 w-full flex justify-center items-center gap-x-3 leading-none">découvre l'histoire
+      <Link to="#story" className="">
+        <div class="my-20 w-full flex justify-center items-center gap-x-3 leading-none">
+          découvre l'histoire
           <img src={Arrowicon} className="text-black animate-bounce" />
         </div>
       </Link>
@@ -40,21 +41,30 @@ const IndexPage = () => {
         <h1 class="mb-10 relative">
           l'histoire
           <div class="left-[300px] bottom-[0px] hidden sm:block absolute">
-              <img src={LadybugIcon}/>
+            <img src={LadybugIcon} />
           </div>
         </h1>
         <div class="w-full flex justify-start">
           <div class="bg-light-green md:p-[40px] p-[20px] rounded-lg md:max-w-[800px] relative">
-            La Terre a vraiment besoin d'un coup de main, "Spiro" te propose de devenir un détective dans Soria ville ! En tant que super détective, c'est à toi de retrouver les responsables d’actes allant à l’encontre de la protection de la planète.
+            La Terre a vraiment besoin d'un coup de main, "Spiro" te propose de
+            devenir un détective dans Soria ville ! En tant que super détective,
+            c'est à toi de retrouver les responsables d’actes allant à
+            l’encontre de la protection de la planète.
           </div>
         </div>
         <div class="relative w-full flex justify-end md:mt-10 mt-4">
           <div class="right-[10px] top-[-230px] hidden md:block absolute">
-              <img src={CactusIcon}/>
+            <img src={CactusIcon} />
           </div>
           <div class="bg-light-green md:p-[40px] p-[20px] rounded-lg md:max-w-[800px]">
-          Tu pourras te balader dans le parc, le port, le quartier pavillonnaire, la route, la zone industrielle ainsi que le champ pour résoudre les mystères qui planent sur la ville. Chaque fois qu'il se passe quelque chose d’inhabituel, c’est à toi de découvrir quel crime a été fait, dans quel lieu, et même quel objet est impliqué dans cette histoire.
-Le défi ? Attraper les coupables ! Alors, es-tu prêt à devenir un détective de Soria ville ? Allez, l'aventure t'attend !
+            Tu pourras te balader dans le parc, le port, le quartier
+            pavillonnaire, la route, la zone industrielle ainsi que le champ
+            pour résoudre les mystères qui planent sur la ville. Chaque fois
+            qu'il se passe quelque chose d’inhabituel, c’est à toi de découvrir
+            quel crime a été fait, dans quel lieu, et même quel objet est
+            impliqué dans cette histoire. Le défi ? Attraper les coupables !
+            Alors, es-tu prêt à devenir un détective de Soria ville ? Allez,
+            l'aventure t'attend !
           </div>
         </div>
       </section>

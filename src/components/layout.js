@@ -6,7 +6,7 @@ import Logo from '../images/logo.svg';
 
 const Header = () => {
   return (
-    <nav className="sticky top-5 max-w-[1300px] mx-auto flex justify-between items-center mb-5 px-[40px] py-[22px] rounded-xl bg-primary-blue text-white font-signika-negative text-xs sm:text-base">
+    <nav className="z-50 sticky top-5 max-w-[1300px] mx-auto flex justify-between items-center mb-5 px-[40px] py-[22px] rounded-xl bg-primary-blue text-white font-signika-negative text-xs sm:text-base">
       <div className="mr-8">
         <Link to="/">
           <img className="text-white" src={Logo} alt="Logo" />
