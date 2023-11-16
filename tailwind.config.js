@@ -11,6 +11,7 @@ module.exports = {
         'secondary-yellow': '#FCD034',
         'pastel-blue': 'rgba(9, 83, 194, 0.20)',
         'light-white': '#F8F8F8',
+        'light-green': '#D1F1C8',
       },
       fontFamily: {
         'signika-negative': ['Signika Negative', 'sans-serif'],
